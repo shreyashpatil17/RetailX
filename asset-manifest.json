@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/RetailX/static/css/main.702cde49.css",
+    "main.js": "/RetailX/static/js/main.c0110c7c.js",
+    "static/js/787.30172c12.chunk.js": "/RetailX/static/js/787.30172c12.chunk.js",
+    "static/media/HomeImage.png": "/RetailX/static/media/HomeImage.100a5a984c536f5501fd.png",
+    "static/media/Logo.png": "/RetailX/static/media/Logo.c611a5c8f8a3f1572170.png",
+    "index.html": "/RetailX/index.html",
+    "main.702cde49.css.map": "/RetailX/static/css/main.702cde49.css.map",
+    "main.c0110c7c.js.map": "/RetailX/static/js/main.c0110c7c.js.map",
+    "787.30172c12.chunk.js.map": "/RetailX/static/js/787.30172c12.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.702cde49.css",
+    "static/js/main.c0110c7c.js"
+  ]
+}
