@@ -1,7 +1,6 @@
 {
   "name": "retailx",
   "version": "0.1.0",
-  "homepage": "https://shreyashpatil17.github.io/RetailX",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
