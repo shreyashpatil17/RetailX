@@ -18,9 +18,9 @@ const Home = () => {
             src={HomeImage} 
             alt="Main Content"
         />
-        <h1>Your Everyday <br/>Retail Application</h1>
-        <h3>Make your store management a hassle free experience</h3>
-        <div className="button">
+        <h1 className="homeH1">Your Everyday <br/>Retail Application</h1>
+        <h3 className="homeH3">Make your store management a hassle free experience</h3>
+        <div className="homeButton">
             <Link to="/">Get Started</Link>
         </div>
         </>

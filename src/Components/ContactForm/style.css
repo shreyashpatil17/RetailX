@@ -1,0 +1,182 @@
+input::placeholder {
+    text-indent: 8px; /* Adjust the value as needed */
+}
+textarea::placeholder {
+    text-indent: 8px; /* Adjust the value as needed */
+  }
+
+/* Media Queries for Mobile */
+@media only screen and (max-width: 600px)
+{
+    .contactFormDiv{
+        width: 350px;
+        height: 600px; 
+        background-color: #FFFFFF;
+        border: 0px;
+        border-radius: 0px; 
+        margin: 40px auto 0;
+        box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.10);
+        margin-bottom: 80px;
+        padding: 4px   0px 0px 0px ;
+    }
+    .contactFormH1{
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        color: #265073;
+        text-align: center;
+    }
+    .contactFormDiv input{
+        font-family: 'Poppins', sans-serif;
+        background-color: #F6F6F6;
+        border: none;
+        font-size: 12px;
+        font-weight: 300;
+        height: 38px;
+        position: relative;
+        left : 28px;
+        right: 28px;
+    }
+    .contactFormDiv textarea{
+        font-family: 'Poppins', sans-serif;
+        resize : none;
+        background-color: #F6F6F6;
+        border: none;
+        font-size: 12px;
+        font-weight: 300;
+        position: relative;
+        left : 28px;
+        right: 28px;
+    }
+    .inputName{
+        width: 290px;
+    }  
+    .inputEmail{
+        margin-top: 10px;
+        width: 290px;
+    }
+    .inputMobile{
+        margin-top: 10px;
+        width: 290px;
+    }
+    .inputSubject{
+        margin-top: 10px;
+        width: 290px;
+    }
+    .inputMessage{
+        margin-top: 10px;
+        width: 290px;
+        height: 240px;
+    }
+    input[type=submit]{
+        text-decoration: none;
+        color: #2D2E2E;
+        font-family: 'Poppins', sans-serif;
+        font-weight : 500;
+        font-size: 16px;
+        background-color: #9AD0C2;
+        border: none;
+        height: 40px;
+        width: 140px;
+        text-align: center;
+        border-radius: 400px;
+        margin: 20px auto 0;
+        margin-left: 20%;
+    }
+}
+
+
+/* Media Queries for Desktop */
+@media only screen and (min-width:601px)
+{
+    .contactFormDiv{
+        width: 1000px;
+        height: 450px; 
+        background-color: #FFFFFF;
+        border: 0px;
+        border-radius: 0px; 
+        margin: 580px auto 0;
+        box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.10);
+        margin-bottom: 80px;
+        padding: 10px   0px 0px 0px ;
+    }
+
+    .contactFormH1{
+        font-family: 'Poppins', sans-serif;
+        font-size: 28px;
+        font-weight: 500;
+        color: #265073;
+        text-align: center;
+    }
+
+    .contactFormDiv input[type=text]{
+        font-family: 'Poppins', sans-serif;
+        background-color: #F6F6F6;
+        border: none;
+        font-size: 12px;
+        font-weight: 300;
+        height: 38px;
+        position: relative;
+    }
+    .contactFormDiv input[type=number]{
+        font-family: 'Poppins', sans-serif;
+        background-color: #F6F6F6;
+        border: none;
+        font-size: 12px;
+        font-weight: 300;
+        height: 38px;
+        position: relative;
+    }
+
+    .contactFormDiv textarea{
+        font-family: 'Poppins', sans-serif;
+        resize : none;
+        background-color: #F6F6F6;
+        border: none;
+        font-size: 12px;
+        font-weight: 300;
+    }
+
+    .inputName{
+        width: 240px;
+        left : 48px;
+    }
+    .inputEmail{
+        width: 300px;
+        left: 70px;
+    }
+    .inputMobile{
+        width: 290px;
+        left: 90px;
+    }
+    .inputSubject{
+        margin-left: 48px;
+        margin-top: 20px;
+        width: 880px;
+    }
+    .inputMessage{
+        margin-left: 48px;
+        margin-top: 20px;
+        width: 880px;
+        height: 150px;
+    }
+
+    input[type=submit]{
+    text-decoration: none;
+    color: #2D2E2E;
+    font-family: 'Poppins', sans-serif;
+    font-weight : 500;
+    font-size: 16px;
+    position: relative; top: 12px;
+    background-color: #9AD0C2;
+    border: none;
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    border-radius: 400px;
+    position: relative;
+    margin: 10px auto 0;
+    display: block;
+    }
+
+}

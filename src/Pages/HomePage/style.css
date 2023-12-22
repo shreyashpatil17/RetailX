@@ -13,7 +13,7 @@
         margin-top: 350px;
     }
 
-    h1{
+    .homeH1{
         color : #265073;
         font-family: 'Poppins', sans-serif;
         font-weight : 800;
@@ -23,7 +23,7 @@
         text-align: center;
     }
 
-    h3{
+    .homeH3{
         color : #2D2E2E;
         font-family: 'Poppins', sans-serif;
         font-weight : 300;
@@ -33,7 +33,7 @@
         position: relative; top: 0px;
     }
 
-    .button{
+    .homeButton{
         background-color : #9AD0C2;
         height: 48px;
         width: 152px;
@@ -42,7 +42,7 @@
         margin: 30px auto 0;
     }
 
-    .button a{
+    .homeButton a{
         text-decoration: none;
         color: #2D2E2E;
         font-family: 'Poppins', sans-serif;
@@ -62,7 +62,7 @@
     position: absolute; top: 150px; right: 100px;
     }
 
-    h1{
+    .homeH1{
     color : #265073;
     font-family: 'Poppins', sans-serif;
     font-weight : 800;
@@ -72,7 +72,7 @@
     line-height: 85px;
     }
 
-    h3{
+    .homeH3{
     color : #2D2E2E;
     font-family: 'Poppins', sans-serif;
     font-weight : 300;
@@ -81,7 +81,7 @@
     font-size: 22px;
     }
 
-    .button{
+    .homeButton{
     background-color : #9AD0C2;
     height: 48px;
     width: 172px;
@@ -90,7 +90,7 @@
     border-radius: 400px;
     }
 
-    .button a{
+    .homeButton a{
     text-decoration: none;
     color: #2D2E2E;
     font-family: 'Poppins', sans-serif;
