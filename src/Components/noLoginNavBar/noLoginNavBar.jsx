@@ -22,7 +22,7 @@ const NoLoginNavbar = ({ onMenuClick }) => {
         <>
             <div className="nav">
                     <img className="logoimg" src={Logo} alt="Logo"/>
-                    <button className="menuBtn" onClick={menuBtnClick}><img className="menuIcon" src={menuIcon} /></button>
+                    <button className="menuBtn" onClick={menuBtnClick}><img className="menuIcon" src={menuIcon} alt="menuBtn" /></button>
                     {isDropdownVisible && (
                         <div className="dropdown-menu">
                             <Link to="/">Home</Link><br/>
